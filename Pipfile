@@ -4,6 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+rope = "*"
+pep8 = "*"
+autopep8 = "*"
 
 [packages]
 flask = "*"
@@ -11,6 +14,7 @@ python-dotenv = "*"
 flask-wtf = "*"
 flask-sqlalchemy = "*"
 flask-migrate = "*"
+flask-login = "*"
 
 [requires]
 python_version = "3.6"
